@@ -1,9 +1,7 @@
 body {
     background-color: #000000;
     color:  #FFFFFF;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px 20px 20px 0px;
     font-family: Arial, Verdana;
 }
 h1 {
@@ -17,15 +15,13 @@ h2 {
 }
 p {
     font-size: 24px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 10px 0 0 10px;
 }
 img {
     width: 250px;
     border: 10px dashed #FFFFFF;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 div {
     min-height: 125px;
@@ -41,49 +37,41 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
-div.blue {
+.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
     color: #C4C4C4
 }
-div h2.blue {
+.blue h2 {
     color: #C4C4C4
 }
-div p.blue {
-    color: #C4C4C4;
-}
-div.yellow {
+.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
+    color: #707070
 }
-div p.yellow {
-    color: #707070;
-}
-div.green {
+.green {
     background-color: #00EB00;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 footer {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 0%);
+    background: linear-gradient(to right, #000000, #0000FF 25%, #0066FF 70%, #000000);
     border: solid 5px #FFFFFF
 }
 footer p {
     font-size: 20px;
     text-align: right;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px 15 px 15px 0;
 }
